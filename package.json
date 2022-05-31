@@ -1,0 +1,19 @@
+{
+  "name": "js501",
+  "version": "1.0.0",
+  "description": "js tutorial",
+  "main": "fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snippets-n-memes/js501.git"
+  },
+  "author": "mbmcmullen27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snippets-n-memes/js501/issues"
+  },
+  "homepage": "https://github.com/snippets-n-memes/js501#readme"
+}
