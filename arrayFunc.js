@@ -4,7 +4,7 @@ async function main() {
     let game = new Game()
     await game.shuffle()
 
-    let hand = await game.draw(52)
+    let hand = await game.draw(5)
     let codes = hand.cards.map(card => card.code)
     await game.addToPile("LorgePile", codes)
 
@@ -12,9 +12,11 @@ async function main() {
 }
 
 main().then( pile => {
-    console.log(pile.cards[0])
+    console.log(pile.cards)
+    console.log('*******************\n\n')
     values = pile.cards.map(card => card.value);
     console.log(values)
+    console.log('*******************\n\n')
     let total = values.reduce(
         (previous, current) => {
             let value = current
