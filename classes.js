@@ -32,6 +32,15 @@ try {
 
 console.log()
 
+original.f1()
+try {
+    original.f2()
+} catch (e) {
+    console.log(e.message)
+}
+
+console.log()
+
 if (typeof original === typeof mutant) {
     console.log("Types are still equal after modifying the prototype! How cool!")
 }
