@@ -23,8 +23,8 @@ console.log()
 
 let mutant = new A("mutant");
 
-mutant.f1()
 try {
+    mutant.f1()
     mutant.f2()
 } catch (e) {
     console.log(e.message)
@@ -32,8 +32,8 @@ try {
 
 console.log()
 
-original.f1()
 try {
+    original.f1()
     original.f2()
 } catch (e) {
     console.log(e.message)
